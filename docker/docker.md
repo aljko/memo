@@ -41,8 +41,26 @@ docker stop <ID du conteneur>
 ```
 Afficher les differences entre le conteneur active et l'image
 ```shell
-docker diff <3 Premieres caractère de ID>
+docker diff <ID du conteneur>
 ```
+## Création d'image
+Créer un fichier nommé Dockerfile
+```
+FROM ubuntu:18.04
+MAINTAINER Medved
+
+RUN apt-get update && \
+    apt-get install -y apache2
+```
+Création de l'image
+```shell
+docker build .
+```
+Création et nommage de l'image
+```shell
+docker build -t nomDeMonImage .
+```
+
 docker commit <3 Premieres caractère de ID> <nom nouvelle image>
 
 docker save <nom de l'image> > </emplacement>
