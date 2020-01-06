@@ -20,5 +20,5 @@ docker-compose stop
 ```
 Tuer tous les conteneurs
 ```
-docker-compose kil
+docker-compose kill
 ```
