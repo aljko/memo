@@ -20,7 +20,7 @@ docker-compose stop
 ```
 Tuer tous les conteneurs
 ```
-docker-compose kil
+docker-compose kill
 ```
 ### 1er Projet
 Emplacement des Projets
