@@ -22,3 +22,12 @@ Tuer tous les conteneurs
 ```
 docker-compose kil
 ```
+### 1er Projet
+Emplacement des Projets
+```shell
+./data/www/1erProjet/
+```
+Création de htdocs dans le dossier du Projet
+```shell
+mkdir htdocs
+```
